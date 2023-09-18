@@ -63,7 +63,7 @@ class Mainframe(ttk.Frame):
         self.place(x = 0, rely = 0.5, relwidth = 1, relheight = 0.5)
 
         #create widgets
-        self.woodand_mag_label = ttk.Label(self, text = 'Maximum Wood-Anderson amplitude recorded on a Wood-Anderson seismograph')
+        self.woodand_mag_label = ttk.Label(self, text = 'Maximum amplitude recorded on a Wood-Anderson seismograph')
         self.woodand_mag_label.pack(expand = True, fill = 'both')
 
 App('Earthquake Analysis', (600,400))
