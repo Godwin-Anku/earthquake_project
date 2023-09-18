@@ -53,7 +53,7 @@ class Menu(ttk.Frame):
             magnitude = float(self.mag_entry.get())
             zero_mag_amplitude = 1.0
             woodand_mag_amplitude = np.power(10, magnitude * zero_mag_amplitude)
-            self.master.mainframe.woodand_mag_label.config(text = f'Maximum Wood-Anderson amplitude: {woodand_mag_amplitude}')
+            self.master.mainframe.woodand_mag_label.config(text = f'Maximum amplitude recorded by the Wood-Anderson seismograph: {woodand_mag_amplitude} micrometers')
         except ValueError:
             self.master.mainframe.woodand_mag_label.config(text = 'Please enter a valid number')
 
