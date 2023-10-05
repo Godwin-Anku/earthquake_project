@@ -1,1 +1,1 @@
-# githubtutorials
+# earthquake analysis project
